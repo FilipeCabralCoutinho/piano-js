@@ -6,7 +6,7 @@ const keysCheck = document.querySelector(".keys-check input")
 
 
 async function playTune(key) {
-    const audio = new Audio(`./src/tunes/${key}.wav`);
+    const audio = new Audio(`src/tunes/${key}.wav`);
     audio.play();
     audio.volume = volume;
 
